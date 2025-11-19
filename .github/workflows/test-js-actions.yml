@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: abdallaheeid/javascript-github-actions@42c925a82ff4782bad97d3eb31662c8185b8ba2b
+        uses: abdallaheeid/javascript-github-actions@9e9f181a615d9e0abb337fb71cbb2c4b3b7581bf
         with:
           who-to-greet: Abdallah the Octocat
 
