@@ -6,7 +6,7 @@ inputs:
     required: true
     default: 'true'
 outputs:
-  random-number:
+  used-cache:
     description: 'Random Number'
     value: ${{ steps.random-number-generator.outputs.random-number }}
 runs:
